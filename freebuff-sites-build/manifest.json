@@ -1,0 +1,41 @@
+{
+  "runtime": "opennext",
+  "entrypoint": "deploy-entry.js",
+  "compatibilityDate": "2026-10-01",
+  "compatibilityFlags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public",
+    "disable_ctx_exports"
+  ],
+  "modules": [
+    {
+      "name": "deploy-entry.js",
+      "type": "esm",
+      "path": "worker/deploy-entry.js"
+    }
+  ],
+  "assetsDirectory": "assets",
+  "cache": [
+    {
+      "key": "incremental-cache/zSyENg3NZ3sn5joZu5nz6/993c7cb2dfe20d8647fc0d2e338548d2af9b4506a0908063db1396c932c48361.cache",
+      "path": "cache/0.json"
+    },
+    {
+      "key": "incremental-cache/zSyENg3NZ3sn5joZu5nz6/ddc3537483c849bb2a74aa9f4d4dcf388745c264e4ae0e3379796d8ff9014023.cache",
+      "path": "cache/1.json"
+    },
+    {
+      "key": "incremental-cache/zSyENg3NZ3sn5joZu5nz6/75dea7fd12e1fda244908966601a547a8eff650d235bc46a0facbb47af124c32.cache",
+      "path": "cache/2.json"
+    },
+    {
+      "key": "incremental-cache/zSyENg3NZ3sn5joZu5nz6/f8ae9e821f0cbf3390e87bea6a98d31bcddadce57062fb2c36b6c690c7637e5a.cache",
+      "path": "cache/3.json"
+    },
+    {
+      "key": "incremental-cache/zSyENg3NZ3sn5joZu5nz6/a52b342c8413e7579e98b5bcf47736e954217318eb4ff14ded6170315dd8d20d.cache",
+      "path": "cache/4.json"
+    }
+  ],
+  "spa": false
+}

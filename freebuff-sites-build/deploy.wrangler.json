@@ -1,0 +1,33 @@
+{
+  "name": "freebuff-next-local",
+  "main": "C:\\Users\\CDP\\Desktop\\better-auth-tutorial\\freebuff-sites-build\\deploy-entry.js",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public",
+    "disable_ctx_exports"
+  ],
+  "assets": {
+    "directory": "C:\\Users\\CDP\\Desktop\\better-auth-tutorial\\freebuff-sites-build\\assets",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "vars": {},
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "freebuff-next-db-local",
+      "database_id": "00000000-0000-0000-0000-000000000001"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "NEXT_INC_CACHE_R2_BUCKET",
+      "bucket_name": "freebuff-next-cache-local"
+    },
+    {
+      "binding": "FILES",
+      "bucket_name": "freebuff-next-files-local"
+    }
+  ]
+}

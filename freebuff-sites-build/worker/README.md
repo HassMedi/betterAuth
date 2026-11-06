@@ -1,0 +1,1 @@
+This folder contains the built output assets for the worker "freebuff-next-local" generated at 2026-11-03T20:51:18.648Z.
