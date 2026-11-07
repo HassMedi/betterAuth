@@ -24,7 +24,6 @@
 .DS_Store
 *.pem
 /.cloud-attachments/
-/.freebuff/
 
 # debug
 npm-debug.log*
@@ -42,8 +41,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-freebuff.open-next.config.ts
-freebuff.wrangler.jsonc
-/freebuff-sites-build/
 /.open-next/
 /.wrangler/
